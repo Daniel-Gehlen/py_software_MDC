@@ -7,7 +7,7 @@ Este é um simples projeto de software que calcula o Máximo Divisor Comum (MDC)
 1. **Clone o Repositório:**
 
 ```
-git clone https://github.com/seu-usuario/meu_software.git
+git clone https://github.com/Daniel-Gehlen/py_software_MDC.git
 ```
 
 2. **Navegue até o Diretório do Projeto:**
