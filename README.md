@@ -13,7 +13,7 @@ git clone https://github.com/Daniel-Gehlen/py_software_MDC.git
 2. **Navegue até o Diretório do Projeto:**
 
 ```
-cd meu_software
+cd software_MDC
 ```
 
 3. **Instale as Dependências:**
