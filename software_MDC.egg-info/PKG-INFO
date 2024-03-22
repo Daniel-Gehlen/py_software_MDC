@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: software_MDC
+Version: 1.0.0
+Summary: Software que calcula MDC de Euclides.
+Home-page: https://github.com/Daniel-Gehlen/py_software_MDC
+Author: Daniel Gehlen
+Author-email: harmonia251251@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# Software MDC
+
+Este Ã© um simples projeto de software que calcula o MÃ¡ximo Divisor Comum (MDC) de dois nÃºmeros usando o algoritmo de Euclides.
+
+## Passos para Executar o Projeto
+
+1. **Clone o RepositÃ³rio:**
+
+```
+git clone https://github.com/seu-usuario/meu_software.git
+```
+
+2. **Navegue atÃ© o DiretÃ³rio do Projeto:**
+
+```
+cd meu_software
+```
+
+3. **Instale as DependÃªncias:**
+
+```
+pip install -r requirements.txt
+```
+
+4. **Execute o Projeto:**
+
+```
+python main.py
+```
+
+5. **Criar o Pacote do Software:**
+
+```
+pyinstaller --onefile main.py
+```
+
+6. **Navegue atÃ© o DiretÃ³rio de DistribuiÃ§Ã£o:**
+
+```
+cd dist/main
+```
+
+7. **Execute o Software:**
+
+```
+./main.exe
+```
+
+## Requisitos
+
+- Python 3.x
+- Bibliotecas listadas em requirements.txt
+
+## LicenÃ§a
+
+Este projeto Ã© licenciado sob a [LicenÃ§a MIT](LICENSE).
+
+
+# Como realizar um projeto assim:
+
+```
+mkdir -p meu_software/interface_grafica && touch meu_software/main.py meu_software/interface_grafica/__init__.py meu_software/interface_grafica/views.py
+```
+
+## Criar um ambiente virtual:
+
+```
+python -m venv env
+```
+
+## Ativar o ambiente virtual:
+
+```
+source env/bin/activate
+```
+
+## Instalar as dependÃªncias:
+
+```
+pip install pyinstaller
+```
+
+## Criar o arquivo de especificaÃ§Ã£o (.spec):
+
+```
+pyi-makespec main.py
+```
+
+## Compilar o programa:
+
+```
+pyinstaller main.spec
+```
+
+ApÃ³s a conclusÃ£o deste Ãºltimo comando, vocÃª encontrarÃ¡ o executÃ¡vel do seu software na pasta dist, pronto para ser distribuÃ­do e instalado em qualquer mÃ¡quina Windows. Certifique-se de testar o executÃ¡vel em diferentes ambientes para garantir que funcione conforme o esperado antes de distribuÃ­-lo.

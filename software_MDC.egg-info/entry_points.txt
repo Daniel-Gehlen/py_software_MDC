@@ -1,0 +1,2 @@
+[console_scripts]
+main = software_MDC.main:main

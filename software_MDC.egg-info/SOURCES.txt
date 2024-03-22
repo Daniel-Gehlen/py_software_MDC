@@ -1,0 +1,9 @@
+README.md
+setup.py
+interface_grafica/__init__.py
+interface_grafica/views.py
+software_MDC.egg-info/PKG-INFO
+software_MDC.egg-info/SOURCES.txt
+software_MDC.egg-info/dependency_links.txt
+software_MDC.egg-info/entry_points.txt
+software_MDC.egg-info/top_level.txt

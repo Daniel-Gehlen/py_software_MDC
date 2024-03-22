@@ -58,6 +58,25 @@ Este projeto é licenciado sob a [Licença MIT](LICENSE).
 
 # Como realizar um projeto assim:
 
+## Estrutura:
+
+```
+meu_software/
+├── LICENSE
+├── README.md
+├── main.py
+├── main.spec
+├── requirements.txt
+├── setup.py
+└── interface_grafica/
+    ├── __init__.py
+    └── views.py
+└── tests/
+    ├── __init__.py
+    ├── test_main.py
+    └── test_views.py
+```
+
 ```
 mkdir -p meu_software/interface_grafica && touch meu_software/main.py meu_software/interface_grafica/__init__.py meu_software/interface_grafica/views.py
 ```
